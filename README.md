@@ -48,6 +48,7 @@ Triángulo -> Área: 6.00, Perímetro: 12.00
 
 ## 🧩 Diagrama de clases e Historias de usuario
 
+
 ```mermaid
 classDiagram
     class Shape {
@@ -93,6 +94,9 @@ classDiagram
     AbstractShape <|-- Circle
     AbstractShape <|-- Rectangle
     AbstractShape <|-- Triangle
+
+
+
 Historias de usuario:
 
 Como estudiante, quiero crear figuras geométricas (círculo, rectángulo, triángulo) para calcular área y perímetro y reforzar POO.
