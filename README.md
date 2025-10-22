@@ -55,7 +55,7 @@ Triángulo -> Área: 6.00, Perímetro: 12.00
 ---
 
 ## 📸 Evidencia de ejecución
-![Ejecución del programa](./docs/ejecucion.png .png)
+![Ejecución del programa](docs/ejecucion.png)
 
 ---
 
