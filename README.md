@@ -45,3 +45,19 @@ classDiagram
     AbstractShape <|-- Circle
     AbstractShape <|-- Rectangle
     AbstractShape <|-- Triangle
+
+
+
+
+
+📘 Historias de usuario
+
+👨‍🎓 Como estudiante, quiero crear figuras geométricas (círculo, rectángulo, triángulo) para calcular área y perímetro y reforzar POO.
+
+💻 Como usuario, quiero visualizar en consola el resultado de cada figura.
+
+👷 Como desarrollador, quiero validar los datos para evitar errores.
+
+👨‍🏫 Como profesor, quiero revisar el diagrama de clases para verificar herencia y polimorfismo.
+
+🧠 Como alumno, quiero poder agregar nuevas figuras sin modificar las existentes.
