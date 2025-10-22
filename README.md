@@ -11,11 +11,11 @@ Proyecto listo para ejecutar y revisar en **IntelliJ IDEA**.
 - Documentar con **diagrama de clases** y **historias de usuario**.
 
 ## 📦 Estructura (src/main/java/com/javi/javifiguras)
-AbstractShape.java // Clase base abstracta (nombre + validaciones)
-Circle.java // Círculo: área y perímetro
-Rectangle.java // Rectángulo: área y perímetro
-Triangle.java // Triángulo: Herón + validación de lados
-Shape.java // Interfaz común (name, area, perimeter, draw)
+AbstractShape.java // Clase base abstracta (nombre + validaciones)  
+Circle.java // Círculo: área y perímetro  
+Rectangle.java // Rectángulo: área y perímetro  
+Triangle.java // Triángulo: Herón + validación de lados  
+Shape.java // Interfaz común (name, area, perimeter, draw)  
 Main.java // Demostración (lista polimórfica)
 
 ---
@@ -25,15 +25,14 @@ Main.java // Demostración (lista polimórfica)
 2. Ve a `Main.java`.
 3. Haz clic en ▶️ **Run**.
 
-**Salida esperada (ejemplo):**
-=== Figuras ===
-Dibujando Círculo (r=3.0): ooo
-Círculo -> Área: 28.27, Perímetro: 18.85
-Dibujando Rectángulo (4.0x6.0): ▭
-Rectángulo -> Área: 24.00, Perímetro: 20.00
-Dibujando Triángulo (3.0, 4.0, 5.0): ▲
+**Salida esperada (ejemplo):**  
+=== Figuras ===  
+Dibujando Círculo (r=3.0): ooo  
+Círculo -> Área: 28.27, Perímetro: 18.85  
+Dibujando Rectángulo (4.0x6.0): ▭  
+Rectángulo -> Área: 24.00, Perímetro: 20.00  
+Dibujando Triángulo (3.0, 4.0, 5.0): ▲  
 Triángulo -> Área: 6.00, Perímetro: 12.00
-
 
 ---
 
@@ -47,7 +46,6 @@ Triángulo -> Área: 6.00, Perímetro: 12.00
 ---
 
 ## 🧩 Diagrama de clases e Historias de usuario
-
 
 ```mermaid
 classDiagram
@@ -96,7 +94,6 @@ classDiagram
     AbstractShape <|-- Triangle
 
 
-
 Historias de usuario:
 
 Como estudiante, quiero crear figuras geométricas (círculo, rectángulo, triángulo) para calcular área y perímetro y reforzar POO.
@@ -108,6 +105,3 @@ Como desarrollador, quiero validar los datos para evitar errores.
 Como profesor, quiero revisar el diagrama de clases para verificar herencia y polimorfismo.
 
 Como alumno, quiero poder agregar nuevas figuras sin modificar las existentes.
-
-## 📸 Evidencia de ejecución
-![Ejecución del programa](./docs/ejecucion.png)
