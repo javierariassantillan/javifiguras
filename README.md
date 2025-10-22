@@ -46,47 +46,47 @@ Triángulo -> Área: 6.00, Perímetro: 12.00
 
 ---
 
-## 🧩 Diagrama de clases
+## 🧩 Diagrama de clases e Historias de usuario
 
 ```mermaid
 classDiagram
     class Shape {
-      <<interface>>
-      +getName(): String
-      +area(): double
-      +perimeter(): double
-      +draw(): void
+        <<interface>>
+        +getName(): String
+        +area(): double
+        +perimeter(): double
+        +draw(): void
     }
 
     class AbstractShape {
-      <<abstract>>
-      -name: String
-      +getName(): String
-      #validatePositive(values: double...)
+        <<abstract>>
+        -name: String
+        +getName(): String
+        #validatePositive(values: double...)
     }
 
     class Circle {
-      -radius: double
-      +area(): double
-      +perimeter(): double
-      +draw(): void
+        -radius: double
+        +area(): double
+        +perimeter(): double
+        +draw(): void
     }
 
     class Rectangle {
-      -width: double
-      -height: double
-      +area(): double
-      +perimeter(): double
-      +draw(): void
+        -width: double
+        -height: double
+        +area(): double
+        +perimeter(): double
+        +draw(): void
     }
 
     class Triangle {
-      -a: double
-      -b: double
-      -c: double
-      +area(): double
-      +perimeter(): double
-      +draw(): void
+        -a: double
+        -b: double
+        -c: double
+        +area(): double
+        +perimeter(): double
+        +draw(): void
     }
 
     Shape <|.. AbstractShape
@@ -94,7 +94,7 @@ classDiagram
     AbstractShape <|-- Rectangle
     AbstractShape <|-- Triangle
 
-📚 Historias de usuario
+Historias de usuario:
 
 Como estudiante, quiero crear figuras geométricas (círculo, rectángulo, triángulo) para calcular área y perímetro y reforzar POO.
 
